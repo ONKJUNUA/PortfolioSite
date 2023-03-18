@@ -36,4 +36,10 @@ body{
     color: #fff;
     text-decoration: none;
     margin-left: 20px;
+    transition: .2s;
+}
+
+.navbar a:hover,
+.navbar .active{
+    color: #888;
 }

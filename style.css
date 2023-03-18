@@ -17,7 +17,7 @@ body{
     top: 0;
     left: 0;
     width: 100%;
-    padding: 40px 10%;
+    padding: 40px 8%;
     background: transparent;
     display: flex;
     justify-content: space-between;
@@ -27,7 +27,7 @@ body{
 
 .logo{
     font-size: 40px;
-    color: #888;
+    color: #fff;
     text-decoration: none;
     cursor: default;
 }
@@ -43,6 +43,7 @@ body{
 .navbar a:hover,
 .navbar .active{
     color: #fff;
+    text-shadow: 0 0 15px #fff;
 }
 
 .home{
@@ -52,11 +53,12 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 70px;
+    padding: 8%;
 }
 
 .home-content{
-    max-width: 600px;
+    margin-top: 100px;
+    max-width: 500px;
 }
 
 .home-content h3{
@@ -79,23 +81,53 @@ body{
 }
 
 .home-img img{
-    max-width: 450px;
+    max-width: 400px;
+}
+
+.social-media{
+    margin: 0 0 20px 0;
+    text-align: center;
 }
 
 .social-media a{
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
     background: transparent;
     font-size: 30px;
     color: #fff;
     text-decoration: none;
+    border:  2px solid #fff;
+    border-radius: 50%;
     margin: 30px 15px 30px 0;
-    transition: .2s;
+    transition: .5s ease;
 }
 
 .social-media a:hover{
-    color: #888;
+    color: #222;
+    background: #fff;
+    box-shadow: 0 0 15px #fff;
+}
+
+.cv{
+    text-align: center;
+}
+
+.btn{
+    font-size: 30px;
+    background: #222;
+    color: #fff;
+    padding: 10px 20px 10px 20px;
+    border-radius: 15px;
+    border:  2px solid #fff;
+    text-decoration: none;
+    transition: .5s ease;
+}
+
+.btn:hover{
+    color: #222;
+    background: #fff;
+    box-shadow: 0 0 15px #fff;
 }

@@ -57,12 +57,11 @@ body{
 }
 
 .home-content{
-    margin-top: 100px;
-    max-width: 500px;
+    max-width: 50vw;
 }
 
 .home-content h3{
-    font-size: 32px;
+    font-size: 3vw;
     margin: 0 0 10px 0;
 }
 
@@ -71,38 +70,36 @@ body{
 }
 
 .home-content h1{
-    font-size: 48px;
+    font-size: 5vw;
     color: #fff;
     margin: 0 0 30px 0;
 }
 
 .home-content p{
-    font-size: 16px;
+    font-size: 2vw;
 }
 
 .home-img img{
-    max-width: 400px;
-}
-
-.social-media{
-    margin: 0 0 20px 0;
-    text-align: center;
+    max-width: 30vw;
 }
 
 .social-media a{
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 50px;
-    height: 50px;
+    width: 5vw;
+    height: 5vw;
     background: transparent;
-    font-size: 30px;
+    font-size: 3vw;
     color: #fff;
     text-decoration: none;
     border:  2px solid #fff;
     border-radius: 50%;
     margin: 30px 15px 30px 0;
-    transition: .5s ease;
+    transition: 
+        box-shadow .5s ease,
+        color .5s ease,
+        background .5s ease;
 }
 
 .social-media a:hover{
@@ -111,19 +108,20 @@ body{
     box-shadow: 0 0 15px #fff;
 }
 
-.cv{
-    text-align: center;
-}
-
 .btn{
-    font-size: 30px;
+    display: inline-block;
+    font-size: 3vw;
     background: #222;
     color: #fff;
-    padding: 10px 20px 10px 20px;
-    border-radius: 15px;
+    padding: 1vw 3vw;
+    border-radius: 20px;
     border:  2px solid #fff;
+    letter-spacing: 1px;
     text-decoration: none;
-    transition: .5s ease;
+    transition: 
+        box-shadow .5s ease,
+        color .5s ease,
+        background .5s ease;
 }
 
 .btn:hover{

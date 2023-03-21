@@ -57,7 +57,7 @@ body{
 }
 
 .home-content{
-    margin-top: 200px;
+    margin-top: 50px;
     max-width: 50vw;
 }
 
@@ -132,5 +132,30 @@ body{
 }
 
 @media (min-width: 1200px) {
+    .btn{
+        font-size: 36px;
+        padding: 12px 36px;
+    }
+    .social-media a{
+        width: 60px;
+        height: 60px;
+        font-size: 36px;
+    }
+    .home-content{
+        max-width: 600px;
+    }
     
+    .home-content h3{
+        font-size: 36px;
+    }
+    
+    .home-content h1{
+        font-size: 60px;
+    }
+    
+    .home-content p{
+        font-size: 24px;
+    }
 }
+
+@media (min-width: 1500px) {.home-img img{max-width: 460px;}}

@@ -131,6 +131,15 @@ body{
     box-shadow: 0 0 15px #fff;
 }
 
+@media (max-width: 900px) {
+    .navbar{
+        position: absolute;
+        justify-self: center;
+        margin-top: 150px;
+        margin-left: -15px;
+    }
+}
+
 @media (min-width: 1200px) {
     .btn{
         font-size: 36px;

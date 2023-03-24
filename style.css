@@ -46,6 +46,11 @@ body{
     text-shadow: 0 0 15px #fff;
 }
 
+#menu-icon{
+    font-size: 50px;
+    display: none;
+}
+
 .home{
     position: relative;
     width: 100%;
@@ -134,9 +139,12 @@ body{
 @media (max-width: 900px) {
     .navbar{
         position: absolute;
-        justify-self: center;
         margin-top: 150px;
         margin-left: -15px;
+    }
+    
+    #menu-icon{
+        display: unset;
     }
 }
 

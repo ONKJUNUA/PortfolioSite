@@ -37,7 +37,9 @@ body{
     color: #888;
     text-decoration: none;
     margin-left: 20px;
-    transition: .2s;
+    transition: 
+        box-shadow .2s ease,
+        color .2s ease;
 }
 
 .navbar a:hover,
@@ -136,11 +138,38 @@ body{
     box-shadow: 0 0 15px #fff;
 }
 
+@media (max-width: 600px) {
+    .navbar a{
+        font-size: 4.2vw;
+    }
+    .home{
+        padding: 0;
+    }
+    .home-img{
+        position: absolute;
+        
+    }
+    .home-img img{
+        max-width: 60vw;
+        margin: 20vw;
+    }
+    .home-content{
+        position: absolute;
+        max-width: 80vw;
+        margin:10vw;
+    }
+
+}
+
 @media (max-width: 900px) {
     .navbar{
         position: absolute;
         margin-top: 150px;
         margin-left: -15px;
+    }
+  
+    .navbar a:nth-child(1){
+        margin-left: 20px;
     }
     
     #menu-icon{

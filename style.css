@@ -150,13 +150,35 @@ body{
         
     }
     .home-img img{
-        max-width: 60vw;
-        margin: 20vw;
+        max-width: 40vw;
+        margin: 30vw;
+        margin-top: calc(-600px + 100vw);
     }
     .home-content{
         position: absolute;
         max-width: 80vw;
-        margin:10vw;
+        margin:11vw;
+        margin-top: calc(-500px + 200vw);
+    }
+
+    .home-content h3{
+        font-size: 4vw;
+       
+    }
+    .home-content h1{
+        font-size: 6vw;
+        
+    }
+    .home-content p{
+        font-size: 3vw;   
+    }
+    .btn{
+        font-size: 20px;
+    }
+    .social-media a{
+        font-size: 20px;
+        width: 40px;
+        height: 40px;
     }
 
 }

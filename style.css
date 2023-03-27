@@ -229,3 +229,6 @@ body{
 }
 
 @media (min-width: 1500px) {.home-img img{max-width: 460px;}}
+
+@media (max-width: 350px) {.home{display: none;}
+.header{display: none;}}

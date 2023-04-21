@@ -173,12 +173,12 @@ body{
         font-size: 3vw;   
     }
     .btn{
-        font-size: 20px;
+        font-size: 4vw;
     }
     .social-media a{
-        font-size: 20px;
-        width: 40px;
-        height: 40px;
+        font-size: 4vw;
+        width: 6vw;
+        height: 6vw;
     }
 
 }
@@ -229,38 +229,3 @@ body{
 }
 
 @media (min-width: 1500px) {.home-img img{max-width: 460px;}}
-
-@media (max-width: 350px) {
-    .btn{
-        font-size: 36px;
-        padding: 12px 36px;
-    }
-    .social-media a{
-        width: 60px;
-        height: 60px;
-        font-size: 36px;
-    }
-    .home-content{
-        max-width: 600px;
-    }
-    
-    .home-content h3{
-        font-size: 36px;
-    }
-    
-    .home-content h1{
-        font-size: 60px;
-        margin: 0 0 24px 0;
-    }
-    
-    .home-content p{
-        font-size: 24px;
-        margin: 24px 0 0;
-    }
-    .home-img img{
-        max-width: 140px;
-        margin:0px;
-        margin-left: 30vw;
-        margin-bottom: 350px;
-    }
-}
